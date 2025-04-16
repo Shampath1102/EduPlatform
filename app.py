@@ -1,6 +1,6 @@
 import os
 from datetime import datetime, timedelta  # Add timedelta to the import
-
+from flask_bcrypt import Bcrypt
 from flask import Flask, render_template, redirect, url_for, request, flash, send_from_directory, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
